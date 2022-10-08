@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello, World!".Split(" ")[0]);
+
+var task = new RegexSamples();
+task.FindAndReplace();
+
+return 0;
