@@ -1,15 +1,18 @@
 
 using System.Text.RegularExpressions;
 
-public class RegexSamples{
-    public void FindAndReplace(){
+public class RegexSamples
+{
+    public void FindAndReplace()
+    {
 
-        var input = "";
-        var styleRegEx = new Regex("(style\\s*=\\s*\"(?<inner>.*?)\")", RegexOptions.IgnoreCase);
-        var styleMatch = styleRegEx.Match(input);
-        if (styleMatch.Success)
-        {
-            //TODO
-        }
+        string input = "This is   text with   far  too   much   " +
+                     "white space.";
+        string pattern = "\\s+";
+        string replacement = " ";
+        string result = Regex.Replace(input, pattern, replacement);
+
+        Console.WriteLine("Original String: {0}", input);
+        Console.WriteLine("Replacement String: {0}", result);
     }
 }
