@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="https://intranet.test.com/sites/COMPGOVDEP/_api/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
+	<id>f8261d91-7596-4f47-8b8a-2542212c68b6</id>
+	<title />
+	<updated>2022-11-03T14:57:12Z</updated>
+	<entry>
+		<id>https://intranet.test.com/sites/COMPGOVDEP/_api/Web/GetFileByServerRelativeUrl('/sites/COMPGOVDEP/GSFProject_EY/SurveyData/PCs Sample.xlsx')</id>
+		<category term="SP.File" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+		<link rel="edit" href="Web/GetFileByServerRelativeUrl('/sites/COMPGOVDEP/GSFProject_EY/SurveyData/PCs%20Sample.xlsx')" />
+		<title />
+		<updated>2022-11-03T14:57:12Z</updated>
+		<author>
+			<name />
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ServerRelativeUrl>/sites/COMPGOVDEP/GSFProject_EY/SurveyData/PCs Sample.xlsx</d:ServerRelativeUrl>
+			</m:properties>
+		</content>
+	</entry>
+	<entry>
+		<id>https://intranet.test.com/sites/COMPGOVDEP/_api/Web/GetFileByServerRelativeUrl('/sites/COMPGOVDEP/GSFProject_EY/SurveyData/Model I XXX GSF Measures_v11.xlsx')</id>
+		<category term="SP.File" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+		<link rel="edit" href="Web/GetFileByServerRelativeUrl('/sites/COMPGOVDEP/GSFProject_EY/SurveyData/Model%20I%20TTT%20GSF%20Measures_v11.xlsx')" />
+		<title />
+		<updated>2022-11-03T14:57:12Z</updated>
+		<author>
+			<name />
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:ServerRelativeUrl>/sites/COMPGOVDEP/GSFProject_EY/SurveyData/Model I XXX GSF Measures_v11.xlsx</d:ServerRelativeUrl>
+			</m:properties>
+		</content>
+	</entry>
+</feed>
